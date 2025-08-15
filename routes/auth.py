@@ -5,7 +5,7 @@ from fastapi.security import HTTPBearer
 from pydantic import BaseModel
 
 # Configuración de seguridad
-SECRET_KEY = "3b4f1b9acbc08af27dfcbc9c4488807a97bf47c880af36b8b26a39e5d50e9a11"  # Usa una clave más segura en producción
+SECRET_KEY = ""  # Usa una clave más segura en producción
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 security = HTTPBearer()
